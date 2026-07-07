@@ -1,26 +1,26 @@
 class Anigit < Formula
   desc "Git, but for your anime-watching history"
   homepage "https://github.com/TSSS-org/anigit"
-  version "1.4.6"
+  version "1.4.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/TSSS-org/anigit/releases/download/v1.4.6/anigit-aarch64-apple-darwin.tar.gz"
-      sha256 "96d5cd017c9e27b28e0de38be520f02178ae11118baf3973274b1ff362f7eb49"
+      url "https://github.com/TSSS-org/anigit/releases/download/v1.4.7/anigit-aarch64-apple-darwin.tar.gz"
+      sha256 "c2810285433a5e0c3b8648f715e606878a61561f8044aa38fe74f773353a3648"
     else
-      url "https://github.com/TSSS-org/anigit/releases/download/v1.4.6/anigit-x86_64-apple-darwin.tar.gz"
-      sha256 "e91cc07b4697f508f8e3b03364b206e69101f9a4aa997a0a8971a03363dbd598"
+      url "https://github.com/TSSS-org/anigit/releases/download/v1.4.7/anigit-x86_64-apple-darwin.tar.gz"
+      sha256 "bfc9363fc9accb01a2229e7cbdad11ff035262f3699e70fcc830aed136265794"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/TSSS-org/anigit/releases/download/v1.4.6/anigit-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2cf52f77d5086744149a09b3bc60460a7f1f5c5e4377ceb3f7211cfd974beb32"
+      url "https://github.com/TSSS-org/anigit/releases/download/v1.4.7/anigit-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "486b4fcf48a0fb8e7bbfdbe0fbba35fd356c164d2c3c1bcd831223419bc16a74"
     else
-      url "https://github.com/TSSS-org/anigit/releases/download/v1.4.6/anigit-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2d16fa4536c745f7319f403d5fb7d412a0f021fdb7eed78c680216a4a905f7dd"
+      url "https://github.com/TSSS-org/anigit/releases/download/v1.4.7/anigit-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0a409baf44ea10fa6e54c21aacc1f27985dd871b510226c514a9cb51afa90827"
     end
   end
 
